@@ -1,0 +1,82 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: cover;
+  background-position: center;
+  background-color: black;
+  font-family: 'Electrolize', sans-serif;
+  margin: 0; }
+
+/* ====SEARCH BAR =======*/
+.SearchBar {
+  margin: 10px auto 30px auto;
+  width: 80%; }
+  .SearchBar input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    color: #3c3c3b; }
+    .SearchBar input:focus {
+      outline: 0;
+      boder: 1px solid;
+      color: #ffffff; }
+
+.dialog {
+  color: #ffffff;
+  width: 100%;
+  display: none;
+  overflow: scroll;
+  height: 100px; }
+  .dialog ul {
+    list-style-type: none;
+    padding: 0; }
+  .dialog li {
+    cursor: pointer; }
+    .dialog li:hover {
+      background-color: #00FC87; }
+
+/*=======CARD COMPONENT =======*/
+.Card {
+  margin: 0 auto;
+  width: 80%;
+  background-color: rgba(14, 14, 14, 0.95); }
+  .Card .banner {
+    width: 100%; }
+    .Card .banner img {
+      width: 100%; }
+  .Card .info {
+    color: #ffffff;
+    padding: 10px;
+    text-align: justify; }
+  .Card h3 {
+    color: #00FC87;
+    font-size: 20px; }
+  .Card a {
+    text-decoration: none;
+    color: #ffffff; }
+
+.moreInfo {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr; }
+
+/*======MEDIA QUERY FOR SMALL SCREENS ======*/
+@media (min-width: 700px) {
+  .Card {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+  .banner {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%; }
+    .banner img {
+      height: 100%; }
+  .info {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .SearchBar {
+    width: 50%; } }

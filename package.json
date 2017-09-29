@@ -1,0 +1,26 @@
+{
+  "name": "moviesearch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bloodhound-js": "^1.2.2",
+    "downshift": "^1.9.1",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-bootstrap-typeahead": "^2.0.0-alpha.3",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "typeahead": "^0.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
