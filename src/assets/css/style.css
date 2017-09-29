@@ -80,3 +80,7 @@ body {
     grid-row: 1/2; }
   .SearchBar {
     width: 50%; } }
+
+@media (max-width: 500px) {
+  .info .time, .info .review {
+    text-align: right; } }
