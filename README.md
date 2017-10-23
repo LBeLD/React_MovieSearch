@@ -8,9 +8,9 @@ This app fetches movies via The Movie DB API and shows Movie Name with image, re
 
 ## Credits
 
--[REACT] (https://reactjs.org/)  
--[BOOTSTRAP] (http://getbootstrap.com/)  
--[SASS] (http://sass-lang.com/)   
+-[REACT](https://reactjs.org/)  
+-[BOOTSTRAP](http://getbootstrap.com/)  
+-[SASS](http://sass-lang.com/)   
 -[GULP](https://gulpjs.com/)   
 -[THE MOVIE DB](https://www.themoviedb.org/)   
 -[ANIMATE](https://daneden.github.io/animate.css/)    
